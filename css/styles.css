@@ -1,0 +1,18 @@
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 20px;
+}
+
+
+.column {
+  padding: 15px;
+  background-color: #f0f0f0;
+  border: 1px solid #ccc;
+  text-align: center;
+}
+
+
+.pathways{
+    text-align: center
+}
