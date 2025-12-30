@@ -1,3 +1,51 @@
+body {
+  background-color: rosybrown;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size:larger
+}
+
+h1{
+  text-align: center;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+h2 {
+  text-align: center;
+}
+
+p {
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(185, 110, 110);
+  padding: 1rem 2rem;
+  color: white;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  gap: 1.5rem;
+  margin: auto;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(117, 0, 0);
+}
+
+a:hover {
+  color: crimson;
+}
+
+a:active {
+  color: crimson;
+}
+
 .grid-container {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
@@ -7,7 +55,7 @@
 
 .column {
   padding: 15px;
-  background-color: #f0f0f0;
+  background-color: rosybrown;
   border: 1px solid #ccc;
   text-align: center;
 }
@@ -16,3 +64,6 @@
 .pathways{
     text-align: center
 }
+
+
+
