@@ -1,7 +1,7 @@
 body {
-  background-color: rosybrown;
+  background: radial-gradient(circle farthest-side at top, rgb(168, 40, 40), rosybrown);
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-  font-size:larger
+  font-size:larger;
 }
 
 h1{
@@ -27,12 +27,12 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: rgb(235, 171, 171);
   padding: 1rem;
   border: solid;
+  background-color:rgb(189, 82, 82);
   border-color:rgb(117, 0, 0);
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-  margin: 0px;
+  width: auto;
 }
 
 ul {
@@ -48,7 +48,7 @@ a {
 }
 
 a:hover {
-  color: crimson;
+  color: white;
 }
 
 a:active {
