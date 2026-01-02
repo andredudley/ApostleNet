@@ -77,6 +77,8 @@ a:active {
   background-color: rosybrown;
   border: 2px solid rgb(117, 0, 0);
   text-align: center;
+  justify-content: center;
+  align-items: center;
   transition: all 0.35s ease;
 }
 
