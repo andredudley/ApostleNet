@@ -1,6 +1,6 @@
 body {
   background: radial-gradient(circle farthest-side at top, rgb(168, 40, 40), rosybrown);
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   font-size:larger;
 }
 
@@ -20,6 +20,7 @@ hr {
   background-color:rgb(117, 0, 0);
   border-color:rgb(117, 0, 0);
   height: 2px;
+  width: 67%;
 }
 
 .nav-contain{
@@ -39,7 +40,7 @@ header .nav-contain {
 }
 
 header {
-  background: rosybrown;
+  background: rgba(188,143,143,0.5);
   border-bottom: 1px solid rgb(117, 0, 0);
   padding: 1rem 0;
 }
@@ -101,5 +102,5 @@ a:active {
 }
 
 .column:hover {
-  transform: scale(1.02);
+  transform: scale(1.1);
 }
