@@ -1,106 +1,114 @@
 body {
-  background: radial-gradient(circle farthest-side at top, rgb(168, 40, 40), rosybrown);
+  background-color: #F8FAFC;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-  font-size:larger;
 }
 
-p {
-  text-align: justify;
+.hero {
+  height: 100vh;
+  background-color: #002ba18c;
 }
 
-h2 {
+.hero-content {
+  padding-top: 30vh;
   text-align: center;
 }
 
-footer {
-  margin-top: 25px;
+.hero-btn {
+  margin: 0 auto;
+  padding: 25px 50px;
+  text-align: center;
 }
 
-hr {
-  background-color:rgb(117, 0, 0);
-  border-color:rgb(117, 0, 0);
-  height: 2px;
-  width: 67%;
+.hero-btn {
+  padding: 25px;
+  width: 135px;
+  margin-top: 55px;
+  border-radius: 35px;
+  background-color: #3B82F6;
+  transition: all 0.85s ease;
 }
 
-.nav-contain{
-  width: 90%;
-  max-width: 1200px;
-  margin: auto;
+.hero-btn:hover {
+  transform: scale(1.15);
+  background-color: #21daca;
 }
 
-.nav-contain h1 {
-  font-size: 48px;
+.hero-btn > a {
+  text-decoration: solid;
+  font-size: 18px;
+  color: rgb(0,0,0);
+  transition: all 0.5s ease
 }
 
-header .nav-contain {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+.hero-btn > a:hover {
+  text-decoration: solid;
+  font-size: 18px;
+  color: #020077;
 }
 
-header {
-  background: rgba(188,143,143,0.5);
-  border-bottom: 1px solid rgb(117, 0, 0);
-  padding: 1rem 0;
-}
-
-nav ul {
- list-style: none;
-  display: flex;
-  gap: 1.5rem;
-  margin: auto;
-  justify-content: flex-end;
-}
-
-
-nav a {
-  text-decoration: none;
-  color: rgb(117, 0, 0);
-  font-weight: 500;
-  font-size: x-large;
-  padding-right: 10px;
+.about-content {
+  text-align: center;
+  padding: 25px;
 }
 
 a {
-  color: rgb(117, 0, 0);
+  color: #020077;
+  transition: all 1s ease;
 }
 
 a:hover {
-  color: white;
+  color:#3B82F6;
 }
 
-a:active {
-  color: crimson;
-}
-
-.welcome { 
-  margin: 50px 25px;
-}
-
-.pathways {
-  margin: 50px 25px;
-  text-align: center
-}
-
-.grid-container {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  gap: 20px;
-}
-
-
-.column {
-  padding: 15px;
-  margin: 15px 10px;
-  background-color: rosybrown;
-  border: 2px solid rgb(117, 0, 0);
+.activities > h2 {
+  padding-top: 55px;
   text-align: center;
-  justify-content: center;
-  align-items: center;
-  transition: all 0.35s ease;
 }
 
-.column:hover {
+.activities-container {
+  display: flex;
+  margin: auto 25px;
+  padding: 10px;
+}
+
+.activities-plans{
+  text-align: center;
+  border: solid 2px #020077;
+  border-radius: 4px;
+  background-color: #ececec;
+  padding: 35px;
+  margin: 25px;
+  transition: all 0.55s ease;
+}
+
+.activities-plans:hover {
+  transform: scale(1.1);
+}
+
+.activities-devotionals{
+  text-align: center;
+  border: solid 2px #020077;
+  border-radius: 4px;
+  background-color: #ececec;
+  padding: 35px;
+  margin: 25px;
+  transition: all 0.55s ease;
+}
+
+.activities-devotionals:hover {
+  transform: scale(1.1);
+}
+
+.activities-testimonies{
+  text-align: center;
+  border: solid 2px #020077;
+  border-radius: 4px;
+  background-color: #ececec;
+  padding: 35px;
+  margin: 25px;
+  transition: all 0.55s ease;
+}
+
+.activities-testimonies:hover {
   transform: scale(1.1);
 }
