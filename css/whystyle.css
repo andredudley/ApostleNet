@@ -6,4 +6,26 @@ body {
 
 h1 {
     text-align: center;
+    padding: 15px auto;
+}
+
+p {
+    margin: 8px;
+    text-align: justify;
+    line-height: 1.6rem;
+}
+
+p:nth-last-of-type(3) {
+    text-align: center;
+}
+
+p:last-of-type {
+    text-align: center;
+    font-size: 28px;
+}
+
+i{
+    text-align: justify;
+    margin: 24px;
+    padding-left: 24px;
 }
