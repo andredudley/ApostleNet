@@ -1,6 +1,7 @@
 body {
   background-color: #F8FAFC;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  margin: 0px;
 }
 
 .hero {
@@ -48,15 +49,20 @@ body {
 
 .about-content {
   text-align: center;
-  padding: 25px;
+  padding-top: 85px;
+  line-height: 2.2rem;
+  margin-left: 25vw;
+  margin-right: 25vw;
+  height: 55vh;
 }
+
 
 a {
   color: #020077;
   transition: all 1s ease;
 }
 
-a:hover {
+a:hover:not(.contact-link) {
   color:#3B82F6;
 }
 
@@ -69,6 +75,7 @@ a:hover {
   display: flex;
   margin: auto 25px;
   padding: 10px;
+  height: 55vh;
 }
 
 .activities-plans{
@@ -111,4 +118,16 @@ a:hover {
 
 .activities-testimonies:hover {
   transform: scale(1.1);
+}
+
+footer {
+  background-color: #020077;
+  color: white;
+  text-align: center;
+  padding: 25px;
+  margin-top: 15px;
+}
+
+.contact-link {
+  color: goldenrod;
 }
